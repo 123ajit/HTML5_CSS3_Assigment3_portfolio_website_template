@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        color: white;
+      }
+      input {
+        width: 300px;
+        border-bottom: 1px solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+      }
+      div {
+        display: inline-block;
+        vertical-align: top;
+        background-color: rgb(29, 28, 32);
+        width: 430px;
+        height: 470px;
+      }
+      section {
+        padding-left: 240px;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        background: url(https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg)
+          no-repeat fixed;
+        background-size: cover;
+      }
+      img {
+        width: 430px;
+        height: 470px;
+      }
+      #abc {
+        line-height: 60px;
+        padding-left: 60px;
+        padding-right: -60px;
+        width: 370px;
+        height: 470px;
+      }
+      input {
+        background-color: transparent;
+        color: rgb(182, 182, 182);
+      }
+      button {
+        background-color: steelblue;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <img
+          src="https://cdn.pixabay.com/photo/2016/07/30/13/16/dandelion-1557110_960_720.jpg"
+          alt=""
+        />
+      </div>
+      <div id="abc">
+        <h1>Create Account</h1>
+        <input
+          type="text"
+          placeholder="Full Name"
+          type="[a-z A-Z]+"
+          maxlength="15"
+          required
+        /><br />
+        <input type="email" placeholder="Enter Your Email" required /><br />
+        <input type="tel" placeholder="Phone Number-Optional" /><br />
+        <input type="password" placeholder="Password" required /><br />
+        <input type="passwod" placeholder="Confirm Password" required /><br />
+        <button type="submit">Signup Now</button> &nbsp;&nbsp;
+        <a href="https://www.google.com">I have an Account.</a>
+      </div>
+    </section>
+  </body>
+</html>
